@@ -2,7 +2,7 @@ import mongoose, { connection } from "mongoose";
 
 
 const lifeUrl: string = "";
-const localUrl: string = "mongodb://localhost/AuthSystem";
+const localUrl: string = "mongodb://0.0.0.0:27017/AuthSystem";
 mongoose.connect(localUrl);
 mongoose.connection
   
